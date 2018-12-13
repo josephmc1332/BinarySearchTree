@@ -21,7 +21,6 @@ namespace BinarySearchTree
             Console.WriteLine(max);
             Queue q = new Queue();
             Console.WriteLine(q.FindDepth(tree.top));
-
         }
         public static int Factorial(int n)
         {
@@ -63,13 +62,6 @@ namespace BinarySearchTree
     {
         public int value;
     }
-
-
-
-
-
-
-
     public struct QueueItem
     {
         public Node node;
@@ -111,9 +103,6 @@ namespace BinarySearchTree
                 }
             }
             return 0;
-            
-            
-
         }
     }
 
